@@ -11,6 +11,10 @@ Esta aplicación lo contruí con React 19, Vite, Tailwind CSS 4, y React Router,
 
 La página presenta categorías, productos, sliders promocionales, estructura de navegación completa y una página optimizada para dispositivos móviles.
 
+## Despliegue en vercel
+
+> Link: https://lojusto-web.vercel.app/
+
 ## 🖼 Funcionalidades Principales
 
 ### Página de Inicio
