@@ -27,7 +27,7 @@ export function Footer() {
                                     LO JUSTO <Flame size={18} className="text-brand-red animate-pulse" />
                                 </span>
                                 <span className="text-xs text-amber-400 font-bold uppercase tracking-widest">
-                                    Trujillo • Sabor Urbano
+                                    Trujillo • Sabor y Calidad
                                 </span>
                             </div>
                         </Link>
@@ -115,7 +115,7 @@ export function Footer() {
 
                             <div className="flex items-center justify-center sm:justify-start gap-2.5">
                                 <Clock size={16} className="text-brand-yellow shrink-0" />
-                                <span>Lun a Dom: 6:00 PM – 11:30 PM</span>
+                                <span>Lun a Dom: 6:30 PM – 11:00 PM</span>
                             </div>
 
                             <div className="flex items-center justify-center sm:justify-start gap-2.5">
@@ -132,7 +132,7 @@ export function Footer() {
                                 className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-brand-red to-brand-orange hover:from-brand-red-hover hover:to-brand-yellow text-white font-bold text-xs shadow-md transition-all active:scale-95"
                             >
                                 <FaWhatsapp size={15} />
-                                <span>Hablar con un Asesor</span>
+                                <span>Contactanos</span>
                             </a>
                         </div>
                     </div>

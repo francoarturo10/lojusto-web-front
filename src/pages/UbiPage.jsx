@@ -52,7 +52,7 @@ export function UbiPage() {
                             Guillermo Prescott 232
                         </p>
                         <p className="text-xs text-zinc-400">
-                            Urb. La Merced / Zona Trujillo central. Fácil acceso y estacionamiento.
+                            Urb. Vista Bella / Zona Trujillo central.
                         </p>
 
                         <div className="pt-2 flex flex-wrap gap-2">
@@ -99,7 +99,7 @@ export function UbiPage() {
 
                         <div className="bg-black/30 rounded-xl p-3 border border-white/5 flex items-center justify-between">
                             <span className="text-sm font-semibold text-zinc-300">Lunes a Domingo:</span>
-                            <span className="text-sm font-black text-brand-yellow">6:00 PM – 11:30 PM</span>
+                            <span className="text-sm font-black text-brand-yellow">6:30 PM – 11:00 PM</span>
                         </div>
                         <p className="text-xs text-zinc-400">
                             Atención presencial en mesa y pedidos para llevar o delivery continuo.
