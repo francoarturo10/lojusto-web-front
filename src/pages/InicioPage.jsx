@@ -113,9 +113,9 @@ export function InicioPage() {
                             </div>
 
                             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight">
-                                Sabor que Une a la <br className="hidden sm:inline" />
+                                Sabor <br className="hidden sm:inline" />
                                 <span className="bg-gradient-to-r from-brand-red via-brand-orange to-brand-yellow bg-clip-text text-transparent">
-                                    Gente en Trujillo
+                                    que Une
                                 </span>
                             </h2>
 

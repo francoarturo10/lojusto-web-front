@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaInstagram, FaTiktok, FaWhatsapp, FaFacebook } from "react-icons/fa";
-import { MapPin, Phone, Clock, Flame, Heart } from "lucide-react";
+import { FaInstagram, FaTiktok, FaWhatsapp, FaFacebook, FaFutbol } from "react-icons/fa";
+import { MapPin, Phone, Clock, Flame, Heart, HeartHandshake } from "lucide-react";
 import { links } from "../links/links";
 
 export function Footer() {
@@ -27,13 +27,13 @@ export function Footer() {
                                     LO JUSTO <Flame size={18} className="text-brand-red animate-pulse" />
                                 </span>
                                 <span className="text-xs text-amber-400 font-bold uppercase tracking-widest">
-                                    Trujillo • Sabor y Calidad
+                                    Sabor y Calidad
                                 </span>
                             </div>
                         </Link>
 
                         <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-sm mx-auto sm:mx-0">
-                            Lo Justo es el lugar donde cada mordida es un momento para compartir. Hamburguesas jugosas, alitas broaster crocantes y salchipapas bien servidas.
+                            Lo Justo es el punto de encuentro ideal donde la buena compañía se une con el placer de compartir. Hamburguesas jugosas, alitas broaster crocantes y salchipapas bien servidas.
                         </p>
 
                         {/* Social Media Buttons */}
@@ -110,7 +110,7 @@ export function Footer() {
                         <div className="space-y-2.5 text-xs sm:text-sm text-zinc-300">
                             <div className="flex items-center justify-center sm:justify-start gap-2.5">
                                 <MapPin size={16} className="text-brand-red shrink-0" />
-                                <span>Guillermo Prescott 232, Trujillo - Perú</span>
+                                <span> C/ Guillermo Prescott 232, Trujillo - Perú</span>
                             </div>
 
                             <div className="flex items-center justify-center sm:justify-start gap-2.5">
@@ -132,7 +132,7 @@ export function Footer() {
                                 className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-brand-red to-brand-orange hover:from-brand-red-hover hover:to-brand-yellow text-white font-bold text-xs shadow-md transition-all active:scale-95"
                             >
                                 <FaWhatsapp size={15} />
-                                <span>Contactanos</span>
+                                <span>Contáctanos</span>
                             </a>
                         </div>
                     </div>
@@ -140,13 +140,15 @@ export function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-500 text-center sm:text-left">
+                <div className="pt-6 flex flex-col sm:flex-row items-center justify-around gap-3 text-xs text-zinc-500 text-center sm:text-left">
                     <p>
-                        © {new Date().getFullYear()} <strong className="text-zinc-400 font-semibold">Lo Justo</strong>. Todos los derechos reservados.
+                        © {new Date().getFullYear()} <strong className="text-zinc-400 font-semibold">Lo Justo</strong>. LM10
                     </p>
-                    <p className="flex items-center justify-center gap-1">
+                    <p className="flex items-center justify-center gap-1.5">
                         <span>Desarrollado con</span>
                         <Heart size={13} className="text-brand-red fill-brand-red" />
+                        <FaFutbol size={13} color="#22c55e" />
+                        
                         <span>por <strong className="text-zinc-300 font-semibold">FranKeSSJ10</strong></span>
                     </p>
                 </div>

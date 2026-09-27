@@ -89,7 +89,7 @@ export function Slider({ slides = [] }) {
                 <div className="absolute top-3 left-3 sm:top-5 sm:left-5 z-20 pointer-events-none">
                     <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-black/60 backdrop-blur-md text-amber-400 border border-amber-400/30 shadow-lg">
                         <Sparkles size={13} className="text-amber-400" />
-                        Especiales de la Casa
+                        Promos
                     </span>
                 </div>
 

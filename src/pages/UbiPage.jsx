@@ -52,7 +52,7 @@ export function UbiPage() {
                             Guillermo Prescott 232
                         </p>
                         <p className="text-xs text-zinc-400">
-                            Urb. Vista Bella / Zona Trujillo central.
+                            Urb. Vista Bella / Ref. Por Sodimac
                         </p>
 
                         <div className="pt-2 flex flex-wrap gap-2">
